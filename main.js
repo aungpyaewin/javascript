@@ -178,12 +178,12 @@
 //     console.log(person[1].address.township);
 
 // for (let i=0; i<=10; i++){
-//     console.log(`for looping number ${i}`);
+//     console.log(`for loop number ${i}`);
 // }
 
 // let i=0;
 // while(i<=10){
-//     console.log(`while for ${i}`);
+//     console.log(`while loop number ${i}`);
 //     i++;
 // }
 
@@ -241,7 +241,6 @@
 //     return todo.text;
 // });
 // console.log(todoComplete);
-
 
 
 
