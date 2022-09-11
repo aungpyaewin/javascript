@@ -137,7 +137,7 @@ const person = [
             township: "Taungoo",
             city: "Taungoo",
         },
-        email: "NIL",
+        email: "aungaung@gmail.com",
         phone: 09696131415,
     },
     {
@@ -152,7 +152,7 @@ const person = [
             township: "Taungoo",
             city: "Taungoo",
         },
-        email: "NIL",
+        email: "susu@gmail.com",
         phone: 09261191155,
     },
     {
