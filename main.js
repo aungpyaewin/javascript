@@ -1,5 +1,7 @@
 // alert("Hello");
 
+// window.print();
+
 // clear();
 
 // console.log("Hello");
@@ -105,17 +107,17 @@
 //     {
 //         id: 1,
 //         text: "Take out trash",
-//         isComplte: true,
+//         isComplete: true,
 //     },
 //     {
 //         id: 2,
 //         text: "Meeting with boss",
-//         isComplte: true,
+//         isComplete: true,
 //     },
 //     {
 //         id: 3,
 //         text: "Go to clinic",
-//         isComplte: false,
+//         isComplete: false,
 //     },
 // ];
 // console.log(todos[1].text);
@@ -124,54 +126,122 @@
 // const todoJSON = JSON.stringify(todos); /* changing array to JSON format */
 // console.log(todoJSON);
 
-const person = [
-    {
-        name: "Aung Aung",
-        age: 33,
-        gender: "Male",
-        job: "NIL",
-        hobbies: ["Reading", "Walking"],
-        address: {
-            number: "No.144",
-            street: "6th Street",
-            township: "Taungoo",
-            city: "Taungoo",
-        },
-        email: "aungaung@gmail.com",
-        phone: 09696131415,
-    },
-    {
-        name: "Su Su",
-        age: 28,
-        gender: "Female",
-        job: "NIL",
-        hobbies: ["Reading", "Walking"],
-        address: {
-            number: "No.144",
-            street: "6th Street",
-            township: "Taungoo",
-            city: "Taungoo",
-        },
-        email: "susu@gmail.com",
-        phone: 09261191155,
-    },
-    {
-        name: "Aung Pyae Win",
-        age: 24,
-        gender: "Male",
-        job: "Student",
-        hobbies: ["Swimming", "Travelling", "Music"],
-        address: {
-            number: " ",
-            street: "Dhamayone Street",
-            township: "Hlaing",
-            city: "Yangon",
-        },
-        email: "aungpyaewin.apw@gmail.com",
-        phone: 09261191166,
-    }
-];
-    console.log(person);
-    console.log(person[1]);
-    console.log(person[1].address.township);
+// const person = [
+//     {
+//         name: "Aung Aung",
+//         age: 33,
+//         gender: "Male",
+//         job: "NIL",
+//         hobbies: ["Reading", "Walking"],
+//         address: {
+//             number: "No.1",
+//             street: "1st Street",
+//             township: "Taungoo",
+//             city: "Taungoo",
+//         },
+//         email: "aungaung@gmail.com",
+//         phone: 09111111111,
+//     },
+//     {
+//         name: "Su Su",
+//         age: 28,
+//         gender: "Female",
+//         job: "NIL",
+//         hobbies: ["Reading", "Walking"],
+//         address: {
+//             number: "No.1",
+//             street: "1st Street",
+//             township: "Taungoo",
+//             city: "Taungoo",
+//         },
+//         email: "susu@gmail.com",
+//         phone: 09222222222,
+//     },
+//     {
+//         name: "Aung Pyae Win",
+//         age: 24,
+//         gender: "Male",
+//         job: "Student",
+//         hobbies: ["Swimming", "Travelling", "Music"],
+//         address: {
+//             number: " ",
+//             street: "1st Street",
+//             township: "Hlaing",
+//             city: "Yangon",
+//         },
+//         email: "aungpyaewin.apw@gmail.com",
+//         phone: 09261191166,
+//     }
+// ];
+//     console.log(person);
+//     console.log(person[1]);
+//     console.log(person[1].address.township);
+
+// for (let i=0; i<=10; i++){
+//     console.log(`for looping number ${i}`);
+// }
+
+// let i=0;
+// while(i<=10){
+//     console.log(`while for ${i}`);
+//     i++;
+// }
+
+// const todos = [
+//     {
+//         id: 1,
+//         text: "Take out trash",
+//         isComplete: true,
+//     },
+//     {
+//         id: 2,
+//         text: "Meeting with boss",
+//         isComplete: true,
+//     },
+//     {
+//         id: 3,
+//         text: "Go to clinic",
+//         isComplete: false,
+//     },
+// ];
+
+// for (let i=0; i<todos.length; i++)
+// {
+//     console.log(todos[i].id);
+//     console.log(todos[i].text);
+//     console.log(todos[i].isComplete);
+// }
+
+// for(let todo of todos){
+//     console.log(todo.id);
+//     console.log(todo.text);
+//     console.log(todo.isComplete);
+// }
+
+// todos.forEach(function(todo){
+//     console.log(todo.id);
+//     console.log(todo.text);
+//     console.log(todo.isComplete);
+// });
+
+// const todoText = todos.map (function(todo)
+// {
+//     return todo.text;
+// });
+// console.log(todoText);
+
+// const todoComplete = todos.filter(function(todo){
+//     return todo.isComplete === true;
+// });
+// console.log(todoComplete);
+
+// const todoComplete = todos.filter(function(todo){
+//     return todo.isComplete === true;
+// }).map(function(todo){
+//     return todo.text;
+// });
+// console.log(todoComplete);
+
+
+
 
