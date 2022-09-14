@@ -242,5 +242,52 @@
 // });
 // console.log(todoComplete);
 
+// const x = "10";
+// if (x === 10){
+//     console.log("x is 10");
+// }
+// else{
+//     console.log("x is not 10");
+// }
 
+// const x = 15;
+// if (x === 10){
+//     console.log("x is 10");
+// }
+// else if(x > 10){
+//     console.log("x is greater than 10");
+// }
+// else{
+//     console.log("x is less than 10");
+// }
 
+// const x = 4;
+// const y = 11;
+// if (x > 5 || y > 10){
+//     console.log("x is greater than 5 or y is greater than 10");
+// }
+
+// const x = 4;
+// const y = 11;
+// if (x > 4 && y > 10){
+//     console.log("x is greater than 5 and y is greater than 10");
+// }
+
+// const x = 10;
+// const color = x > 9 ? "red" : "blue";
+// console.log(color);
+
+const color = "green";
+switch (color){
+    case "red":
+        console.log("color is red");
+        break;
+
+    case "green":
+        console.log("color is green");
+        break;
+
+    default:
+        console.log("color is not red or green");
+        break;
+}
