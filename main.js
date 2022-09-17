@@ -267,7 +267,7 @@
 //     console.log("x is greater than 5 or y is greater than 10");
 // }
 
-// const x = 4;
+// const x = 5;
 // const y = 11;
 // if (x > 4 && y > 10){
 //     console.log("x is greater than 5 and y is greater than 10");
