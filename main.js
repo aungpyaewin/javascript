@@ -277,17 +277,17 @@
 // const color = x > 9 ? "red" : "blue";
 // console.log(color);
 
-const color = "green";
-switch (color){
-    case "red":
-        console.log("color is red");
-        break;
+// const color = "green";
+// switch (color){
+//     case "red":
+//         console.log("color is red");
+//         break;
 
-    case "green":
-        console.log("color is green");
-        break;
+//     case "green":
+//         console.log("color is green");
+//         break;
 
-    default:
-        console.log("color is not red or green");
-        break;
-}
+//     default:
+//         console.log("color is not red or green");
+//         break;
+// }
