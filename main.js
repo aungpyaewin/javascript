@@ -102,6 +102,7 @@
 // console.log(person.address);
 // console.log(person.hobbies[1]);
 // console.log(person.address.township);
+// console.log(person);
 
 // const todos = [
 //     {
@@ -291,3 +292,133 @@
 //         console.log("color is not red or green");
 //         break;
 // }
+
+// const name = "Aung Pyae Win";
+// switch (name){
+//     case "Aung Pyae Win":
+//         console.log("I'm Aung Pyae Win");
+//         break;
+
+//     case "Maung Maung":
+//         console.log("I'm Maung Maung");
+//         break;
+
+//     default:
+//         console.log("Name not entered");
+//         break;
+// }
+
+// function addNum(num1, num2){
+//     return num1+num2;
+// };
+// console.log(addNum(4,9));
+
+// function subNum(num1, num2){
+//     return num1-num2;
+// };
+// console.log(subNum(4,9));
+
+// function mulNum(num1, num2){
+//     return num1*num2;
+// };
+// console.log(mulNum(4,9));
+
+// function divNum(num1, num2){
+//     return num1/num2;
+// };
+// console.log(divNum(4,9));
+
+// function modNum(num1, num2){
+//     return num1%num2;
+// }
+// console.log(modNum(4,9))
+
+
+// function AddNum(num1, num2){
+//     console.log(num1+num2);
+// };
+// AddNum(4,9);
+
+// const addNums = (num1, num2) => {
+//     console.log(num1+num2);
+// };
+// addNums(5,5);
+
+// const AddNums = (num1, num2) => {
+//     return (num1+num2);
+// };
+// console.log(AddNums(5,5));
+
+// function Person (firstName, lastName, dob){
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = dob;
+// };
+// const person1 = new Person("Aung Pyae", "Win", "August 1 2022");
+// console.log(person1);
+// console.log(person1.firstName, person1.lastName, person1.dob);
+
+// function Person (firstName, lastName, dob){
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = new Date(dob);
+// };
+// const person1 = new Person("Aung Pyae", "Win", "September 21 2022");
+// console.log(person1.dob);
+// console.log(person1.dob.getFullYear());
+
+// function Person (firstName, lastName, dob){
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.getFullName = function(){
+//         return `${this.firstName} ${this.lastName}`;
+//     };
+//     this.dob = new Date(dob);
+//     this.getBirthYear = function(){
+//         return this.dob.getFullYear();
+//     };
+// };
+// const person1 = new Person("Aung Pyae", "Win", "September 21 2022");
+// console.log(person1.dob);
+// console.log(person1.dob.getFullYear());
+// console.log(person1.getBirthYear());
+// console.log(person1.getFullName());
+
+// function Person(firstName, lastName, dob){
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = new Date(dob);
+// };
+
+// Person.prototype.getFullYear = function(){
+//     return this.dob.getFullYear();
+// }
+
+// Person.prototype.geteFullName = function(){
+//     return `${this.firstName} ${this.lastName}`
+// };
+
+// const person1 = new Person ("Aung Pyae", "Win", "September 21 2022");
+// console.log(person1);
+// console.log(person1.getFullYear());
+// console.log(person1.geteFullName());
+
+class Person{
+    constructor(firstName, lastName, dob){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dob = new Date(dob);
+    };
+    getBirthYear(){
+        return this.dob.getFullYear();
+    };
+    getFullName(){
+        return `${this.firstName} ${this.lastName}`;
+    };
+};
+
+const person1 = new Person("Aung Pyae", "Win", "September 21 2022");
+console.log(person1);
+console.log(person1.getBirthYear());
+console.log(person1.getFullName());
+
